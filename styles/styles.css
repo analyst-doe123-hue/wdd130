@@ -1,31 +1,65 @@
-/* 1. Style the navigation bar */
+/* Limit the main content width */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Style the navigation bar */
 nav {
-  background-color: darkblue;
+  background-color: #007BFF; /* Blue background */
   padding: 10px;
 }
 
-/* 2. Style anchor links inside the navigation */
+/* Style nav links */
 nav a {
   color: white;
-  display: block;
-  padding: 20px;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
 }
 
-/* 3. Style the main heading */
-h1 {
-  color: darkblue;
+/* Hover effect for nav links */
+nav a:hover {
+  text-decoration: underline;
 }
 
-/* 4. Style all images */
-img {
+/* Style the main heading */
+main h1 {
+  color: #007BFF; /* Blue text */
+}
+
+/* Style the aside section */
+aside {
+  width: 90%;
+  margin: 20px auto;
+  border: 1px solid #ccc;
+  padding: 15px;
+  background-color: #f0f8ff; /* Light blue background */
+  color: #000; /* Black text for contrast */
+}
+
+/* Style image inside aside */
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+/* Style the image inside main specifically */
+main img {
   width: 150px;
   height: auto;
-  border: 1px solid black;
-  padding: 2px;
-  box-shadow: 0 0 30px gray;
+  border-radius: 8px;
 }
 
-/* 5. Style all paragraphs */
+/* Reset paragraph padding */
 p {
-  padding: 10px;
+  padding: 0;
+}
+
+/* Style the footer */
+footer {
+  margin-top: 20px;
+  border-top: 2px solid #ccc;
+  text-align: center;
+  padding-top: 10px;
 }
