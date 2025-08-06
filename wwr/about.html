@@ -9,56 +9,86 @@
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
-
-  <!-- Link to CSS -->
   <link rel="stylesheet" href="styles/rafting.css" />
 </head>
 <body>
+
+  <!-- HEADER with CSS Grid -->
   <header>
-    <img src="images/logo.png" alt="Rafting Company Logo" />
+    <div class="logo">
+      <img src="images/logo.png" alt="Rafting Logo">
+    </div>
+    <h1>White Water Rafting Co.</h1>
     <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact</a>
+      <ul class="navigation">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
-    <!-- Hero Section -->
-    <div class="hero">
-      <img src="images/hero.jpg" alt="Rafting adventure hero image" />
-      <h1>White Water Rafting Co.</h1>
+    <!-- HERO Section -->
+    <section class="hero">
+      <img src="images/hero.jpg" alt="Rafting Adventure Hero">
+      <h2>Welcome to White Water Rafting Co.</h2>
       <article>
-        <img src="images/employee.jpg" alt="Happy employee" />
+        <img src="images/employee.jpg" alt="Happy Employee">
         <p>Our mission is to provide thrilling, safe, and unforgettable rafting adventures. We value nature, community, and the power of the river.</p>
       </article>
-    </div>
-
-    <!-- History Section -->
-    <section>
-      <h2>History</h2>
-      <p>Founded in the heart of river country, our company has been offering top-notch rafting experiences for over a decade. With expert guides and a passion for the outdoors, we’ve created memories for thousands of adventurers.</p>
     </section>
 
-    <!-- Adventure Awaits Section -->
-    <section>
+    <!-- HISTORY Section -->
+    <section class="history">
+      <h2>History</h2>
+      <div class="history-grid">
+        <p>Founded in the heart of river country, our company has been offering top-notch rafting experiences for over a decade. With expert guides and a passion for the outdoors, we’ve created memories for thousands of adventurers.</p>
+        <div class="history-image">
+          <img src="images/adventure1.jpg" alt="Rafting History">
+        </div>
+        <p>We started with a simple mission: to connect people with nature through thrilling water adventures. Over the years, we’ve grown into a trusted name for safe, family-friendly, and adrenaline-filled trips.</p>
+      </div>
+    </section>
+
+    <!-- ADVENTURES Section -->
+    <section class="adventures">
       <h2>Adventure Awaits You!</h2>
-      <img src="images/adventure1.jpg" alt="Rafting Adventure 1" />
-      <img src="images/adventure2.jpg" alt="Rafting Adventure 2" />
-      <img src="images/adventure3.jpg" alt="Rafting Adventure 3" />
-      <img src="images/adventure4.jpg" alt="Rafting Adventure 4" />
-      <img src="images/adventure5.jpg" alt="Rafting Adventure 5" />
+      <div class="adventure-gallery">
+        <figure>
+          <img src="images/adventure1.jpg" alt="Los Dientes del Diablo">
+          <figcaption>Los Dientes del Diablo</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adventure2.jpg" alt="Big Mallard">
+          <figcaption>Big Mallard</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adventure3.jpg" alt="Half Day Adventure">
+          <figcaption>Half Day Adventure</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adventure4.jpg" alt="Rapid Thunder">
+          <figcaption>Rapid Thunder</figcaption>
+        </figure>
+        <figure>
+          <img src="images/adventure5.jpg" alt="Devil’s Mouth">
+          <figcaption>Devil’s Mouth</figcaption>
+        </figure>
+      </div>
     </section>
   </main>
 
+  <!-- FOOTER with Social Media -->
   <footer>
     <p>&copy; 2025 White Water Rafting Co. | Gaylord Ndenga</p>
-    <nav class="socialmedia">
-      <a href="#"><img src="images/facebook.webp" alt="Facebook" /></a>
-      <a href="#"><img src="images/twitter.webp" alt="Twitter" /></a>
-      <a href="#"><img src="images/instagram.webp" alt="Instagram" /></a>
-    </nav>
+    <div class="social">
+      <a href="#"><img src="images/facebook.webp" alt="Facebook"></a>
+      <a href="#"><img src="images/twitter.webp" alt="Twitter"></a>
+      <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
+    </div>
   </footer>
+
 </body>
 </html>
