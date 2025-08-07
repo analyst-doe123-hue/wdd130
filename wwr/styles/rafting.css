@@ -221,8 +221,8 @@ main {
 .team-section .history-grid img,
 .team-grid img,
 .employees img {
-  width: 120px;
-  height: auto;
+  width: auto;
+  height: 120px;
   border-radius: 8px;
   box-shadow: 0 0 6px rgba(0,0,0,0.2);
 }
